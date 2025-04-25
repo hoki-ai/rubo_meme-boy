@@ -6778,7 +6778,7 @@ local v115 = v16.Player:AddToggle("ToggleNoClip", {
 v115:OnChanged(function(v312)
     _G.LOf = v312;
 end);
-v17.ToggleNoClip:SetValue(true);
+v17.ToggleNoClip:SetValue(false);
 spawn(function()
     pcall(function()
         game:GetService("RunService").Stepped:Connect(function()
