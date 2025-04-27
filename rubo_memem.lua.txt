@@ -96,7 +96,7 @@ local v7 = CreateObject("ImageLabel", {
     Name = "UserImage",
     Parent = v6,
     BackgroundTransparency = 1,
-    Image = "rbxassetid://86449227624220",
+    Image = "rbxassetid://82083472602102",
     Position = UDim2.new(0, 15, 0, 10),
     Size = UDim2.new(0, 50, 0, 50)
 });
@@ -316,9 +316,9 @@ local v15 = v14:CreateWindow({
     Title = "rubo_memem Hub",
     SubTitle = "Blox Fruit",
     TabWidth = 160,
-    Theme = "Dark",
+    Theme = "light",
     Acrylic = false,
-    Size = UDim2.fromOffset(500, 320),
+    Size = UDim2.fromOffset(450, 300),
     MinimizeKey = Enum.KeyCode.End
 });
 local v16 = {
@@ -2633,7 +2633,7 @@ v23.BorderSizePixel = 0;
 v23.Position = UDim2.new(0.120833337 - 0.1, 0, 0.0952890813 + 0.01, 0);
 v23.Size = UDim2.new(0, 50, 0, 50);
 v23.Draggable = true;
-v23.Image = "http://www.roblox.com/asset/?id=86449227624220";
+v23.Image = "http://www.roblox.com/asset/?id=82083472602102";
 v24.Parent = v23;
 v24.CornerRadius = UDim.new(0, 12);
 v25.Parent = v23;
@@ -2680,7 +2680,7 @@ v16.Home:AddButton({
     Title = "hihi",
     Description = "",
     Callback = function()
-        setclipboard("");
+        setclipboard("con cặc");
     end
 });
 _G.FastAttackStrix_Mode = "Super Fast Attack";
@@ -2704,7 +2704,7 @@ local v48 = v16.Main:AddDropdown("DropdownSelectWeapon", {
         "Blox Fruits"
     },
     Multi = false,
-    Default = 1
+    Default = 3
 });
 v48:SetValue("Melee");
 v48:OnChanged(function(v236)
